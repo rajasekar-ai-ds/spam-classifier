@@ -17,7 +17,7 @@ st.sidebar.title("Team members")
 st.sidebar.image("logo_st.jpg")
 st.sidebar.markdown("""
 - Rajasekar P
-- Saravanan S
+- Saravanakumar S
 - Raghav R K
 """)
 st.sidebar.markdown("---")
@@ -94,6 +94,7 @@ if option:
                                     unsafe_allow_html=True)
                     else:
                         st.success("NOT SPAM")
+
 
 
 
