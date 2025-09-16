@@ -8,6 +8,9 @@ pipeline = joblib.load(model_path)
 
 
 st.title("📨AI Email Spam Classifier")
+st.subheader("An AI app where you can check a mail/sms is spam or not")
+
+
 st.caption("By~ Rajasekar , Saravanan , Raghav")
 
 option = st.radio("Choose an option to continue: ", ["📝Enter a Message", "📂Txt File upload"] ,index=None)
@@ -68,6 +71,7 @@ if option:
                                     unsafe_allow_html=True)
                     else:
                         st.success("NOT SPAM")
+
 
 
 
