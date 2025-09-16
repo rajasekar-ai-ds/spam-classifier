@@ -14,7 +14,7 @@ st.sidebar.header("📌Menu")
 st.title("📨AI Email Spam Classifier")
 st.subheader("An AI app where you can check a mail/sms is spam or not")
 st.sidebar.title("Team members")
-st.sidebar.image("assets/logo_st.jpg")
+st.sidebar.image("logo_st.jpg")
 st.sidebar.markdown("""
 - Rajasekar P
 - Saravanan S
@@ -23,8 +23,12 @@ st.sidebar.markdown("""
 st.sidebar.markdown("---")
 
 # st.sidebar.image("spamClassifier/pmist_logo.st.jpg")
-st.sidebar.success("Pmist , Vallam")
 st.sidebar.info("AI Spam Classifier built with scikit-learn and Streamlit....")
+st.sidebar.markdown("---")
+st.sidebar.title("College")
+st.sidebar.image("pmist_logo.st.jpg")
+st.sidebar.success("Pmist , Vallam")
+
 
 
 st.caption("By~ Rajasekar , Saravanan , Raghav")
@@ -87,6 +91,7 @@ if option:
                                     unsafe_allow_html=True)
                     else:
                         st.success("NOT SPAM")
+
 
 
 
