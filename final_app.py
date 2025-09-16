@@ -9,6 +9,12 @@ pipeline = joblib.load(model_path)
 
 st.title("📨AI Email Spam Classifier")
 st.subheader("An AI app where you can check a mail/sms is spam or not")
+st.sidebar.title("Team members")
+st.sidebar.markdown("""
+- Rajasekar P
+- Saravanan S
+- Raghav R K
+""")
 
 
 st.caption("By~ Rajasekar , Saravanan , Raghav")
@@ -71,6 +77,7 @@ if option:
                                     unsafe_allow_html=True)
                     else:
                         st.success("NOT SPAM")
+
 
 
 
