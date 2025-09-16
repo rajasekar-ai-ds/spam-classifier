@@ -14,7 +14,7 @@ st.sidebar.header("📌Menu")
 st.title("📨AI Email Spam Classifier")
 st.subheader("An AI app where you can check a mail/sms is spam or not")
 st.sidebar.title("Team members")
-# st.sidebar.image("spamClassifier/logo_st.jpg")
+st.sidebar.image("assets/logo_st.jpg")
 st.sidebar.markdown("""
 - Rajasekar P
 - Saravanan S
@@ -87,6 +87,7 @@ if option:
                                     unsafe_allow_html=True)
                     else:
                         st.success("NOT SPAM")
+
 
 
 
