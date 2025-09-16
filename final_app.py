@@ -10,7 +10,7 @@ st.set_page_config(
     page_icon="📨",
     initial_sidebar_state="expanded"
 )
-
+st.sidebar.header("📌Menu")
 st.title("📨AI Email Spam Classifier")
 st.subheader("An AI app where you can check a mail/sms is spam or not")
 st.sidebar.title("Team members")
@@ -83,6 +83,7 @@ if option:
                                     unsafe_allow_html=True)
                     else:
                         st.success("NOT SPAM")
+
 
 
 
