@@ -24,7 +24,7 @@ st.sidebar.markdown("---")
 
 # st.sidebar.image("spamClassifier/pmist_logo.st.jpg")
 # st.sidebar.info("AI Spam Classifier built with scikit-learn and Streamlit....")
-st.sidebar.markdown("---")
+# st.sidebar.markdown("---")
 st.sidebar.title("College")
 st.sidebar.image("pmist_logo.st.jpg")
 st.sidebar.success("Pmist , Vallam")
@@ -94,6 +94,7 @@ if option:
                                     unsafe_allow_html=True)
                     else:
                         st.success("NOT SPAM")
+
 
 
 
