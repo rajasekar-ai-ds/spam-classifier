@@ -5,7 +5,11 @@ from pathlib import Path
 Base = Path(__file__).resolve().parent
 model_path = Base / "spam_classifier.joblib"
 pipeline = joblib.load(model_path)
-
+st.set_page_config(
+    page_title="Spam Classifier",
+    page_icon="📨",
+    initial_sidebar_state="expanded"
+)
 
 st.title("📨AI Email Spam Classifier")
 st.subheader("An AI app where you can check a mail/sms is spam or not")
@@ -79,6 +83,7 @@ if option:
                                     unsafe_allow_html=True)
                     else:
                         st.success("NOT SPAM")
+
 
 
 
