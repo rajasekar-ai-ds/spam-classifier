@@ -16,7 +16,7 @@ st.sidebar.markdown("""
 - Raghav R K
 """)
 st.sidebar.markdown("---")
-st.sidebar.info("AI Spam Classifier built with scikit-learn and Streamlit...."
+st.sidebar.info("AI Spam Classifier built with scikit-learn and Streamlit....")
 
 
 st.caption("By~ Rajasekar , Saravanan , Raghav")
@@ -79,6 +79,7 @@ if option:
                                     unsafe_allow_html=True)
                     else:
                         st.success("NOT SPAM")
+
 
 
 
